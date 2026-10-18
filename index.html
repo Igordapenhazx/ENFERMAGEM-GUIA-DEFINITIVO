@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<title>Guia Prático de Enfermagem: consulta rápida para estágios e plantões</title>
+<meta name="description" content="PDF de 9 páginas para ler no celular: cálculo de gotejamento e diluições, 9 certos, sinais vitais, Glasgow, SBAR e anotação de enfermagem.">
+<meta name="theme-color" content="#3A0B2E">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Guia Prático de Enfermagem: consulta rápida para estágios e plantões">
+<meta property="og:description" content="PDF de 9 páginas para ler no celular: cálculo de gotejamento e diluições, 9 certos, sinais vitais, Glasgow, SBAR e anotação de enfermagem.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23E6177F'/%3E%3Cpath d='M13 7h6v6h6v6h-6v6h-6v-6H7v-6h6z' fill='white'/%3E%3C/svg%3E">
+
+<!-- Configurações da página: edite só este bloco antes de publicar -->
+<script>
+  window.CONFIG = {
+    CHECKOUT_URL: "https://pay.kiwify.com.br/Xb9iBk5",
+    PRICE: "R$ 19,90",                                           // preço que aparece na página
+    PRICE_NOTE: "pagamento único, acesso por e-mail",           // texto pequeno abaixo do preço
+    GUARANTEE_DAYS: "7",                                         // dias de garantia (confira na sua oferta na Kiwify)
+    WHATSAPP: "5543996068842",                                  // WhatsApp com código do país e DDD, só números
+    WHATSAPP_LABEL: "(43) 99606-8842",                          // como o número aparece na página
+    BRAND: "Profª. Dalila | Enfermagem na Prática",
+    // Avaliações REAIS de quem comprou e autorizou a publicação. Deixe [] para esconder a seção.
+    // Formato de cada item: { nome: "Maria S.", estrelas: 5, texto: "Texto escrito pela própria pessoa" }
+    REVIEWS: []
+  };
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: "#3A0B2E",
+          paper: "#FFF1F8",
+          pink: { DEFAULT: "#E6177F", dark: "#B80E63", soft: "#FFD6EA" },
+          m1: "#1565C0", m2: "#2E7D32", m3: "#6A1B9A", m4: "#E65100",
+          warn: "#FFF4D6", warnline: "#E0A100"
+        },
+        fontFamily: {
+          display: ['"Bricolage Grotesque"', "system-ui", "sans-serif"],
+          body: ['"Public Sans"', "system-ui", "sans-serif"]
+        }
+      }
+    }
+  };
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: "Public Sans", system-ui, sans-serif; background: #FFF1F8; color: #3A0B2E; }
+  .font-display { letter-spacing: -0.02em; }
+  :focus-visible { outline: 3px solid #B80E63; outline-offset: 3px; border-radius: 6px; }
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .chev { transform: rotate(180deg); }
+  .chev { transition: transform .2s ease; }
+  .readout { font-variant-numeric: tabular-nums; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .chev { transition: none; }
+  }
+  /* espaço para a barra fixa de compra no celular */
+  @media (max-width: 767px) { body { padding-bottom: 76px; } }
+</style>
+</head>
+
+<body class="antialiased">
+
+<!-- Cabeçalho -->
+<header class="bg-ink text-white">
+  <div class="mx-auto max-w-6xl px-5 py-4 flex items-center justify-between">
+    <span class="font-display font-bold text-base sm:text-lg">Profª. Dalila | Enfermagem na Prática</span>
+    <a data-checkout href="#comprar" class="hidden sm:inline-flex rounded-full bg-pink text-white font-semibold text-sm px-4 py-2 hover:bg-pink-dark">Quero o guia</a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- Hero -->
+<section class="bg-gradient-to-br from-pink to-pink-dark text-white">
+  <div class="mx-auto max-w-6xl px-5 pt-8 pb-14 md:pb-20 grid md:grid-cols-2 gap-10 md:gap-14 items-center">
+    <div>
+      <h1 class="font-display font-extrabold text-4xl sm:text-5xl leading-[1.05]">
+        Tudo o que você consulta no plantão, em um PDF de 9 páginas.
+      </h1>
+      <p class="mt-5 text-lg text-white/95 max-w-[34rem] leading-relaxed">
+        Cálculo de gotejamento e diluições, 9 certos, sinais vitais, Glasgow, passagem de plantão e anotação de enfermagem. Feito para abrir no celular, no corredor, entre um paciente e outro.
+      </p>
+      <div class="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
+        <a data-checkout href="#comprar" class="inline-flex items-center justify-center rounded-full bg-white text-pink-dark font-bold px-7 py-4 text-base hover:bg-pink-soft">
+          Quero o guia por <span data-price class="ml-1.5">R$ 19,90</span>
+        </a>
+        <p class="text-sm text-white/95">PDF para baixar. Compra segura pela Kiwify.</p>
+      </div>
+    </div>
+
+    <!-- Calculadora de gotejamento -->
+    <div class="rounded-2xl bg-paper text-ink p-5 sm:p-6 shadow-xl" id="calc">
+      <div class="flex items-baseline justify-between gap-3">
+        <h2 class="font-display font-bold text-xl">Teste um cálculo do guia</h2>
+        <span class="text-xs text-ink/60">Módulo 1</span>
+      </div>
+      <p class="mt-1 text-sm text-ink/70">Gotejamento de soro: informe o volume e o tempo de infusão.</p>
+
+      <form id="calc-form" class="mt-4 grid grid-cols-3 gap-3" aria-label="Calculadora de gotejamento">
+        <label class="col-span-3 sm:col-span-1 text-sm font-semibold">Volume (mL)
+          <input id="vol" type="number" inputmode="decimal" min="1" step="any" value="500"
+                 class="mt-1 w-full rounded-lg border border-ink/20 bg-white px-3 py-2.5 text-base font-normal">
+        </label>
+        <label class="col-span-3 sm:col-span-1 text-sm font-semibold">Horas
+          <input id="hrs" type="number" inputmode="decimal" min="0" step="any" value="6"
+                 class="mt-1 w-full rounded-lg border border-ink/20 bg-white px-3 py-2.5 text-base font-normal">
+        </label>
+        <label class="col-span-3 sm:col-span-1 text-sm font-semibold">Minutos
+          <input id="min" type="number" inputmode="decimal" min="0" step="any" value="0"
+                 class="mt-1 w-full rounded-lg border border-ink/20 bg-white px-3 py-2.5 text-base font-normal">
+        </label>
+      </form>
+
+      <p id="calc-error" class="mt-3 text-sm text-red-700 min-h-[1.25rem]" role="alert"></p>
+
+      <dl class="mt-1 grid grid-cols-3 gap-3 text-center" aria-live="polite">
+        <div class="rounded-xl bg-white border border-ink/10 p-3">
+          <dt class="text-xs text-ink/70">Macrogotas</dt>
+          <dd class="readout font-display font-extrabold text-2xl mt-1"><span id="r-macro">28</span></dd>
+          <dd class="text-xs text-ink/60">gotas/min</dd>
+        </div>
+        <div class="rounded-xl bg-white border border-ink/10 p-3">
+          <dt class="text-xs text-ink/70">Microgotas</dt>
+          <dd class="readout font-display font-extrabold text-2xl mt-1"><span id="r-micro">83</span></dd>
+          <dd class="text-xs text-ink/60">microgotas/min</dd>
+        </div>
+        <div class="rounded-xl bg-white border border-ink/10 p-3">
+          <dt class="text-xs text-ink/70">Bomba de infusão</dt>
+          <dd class="readout font-display font-extrabold text-2xl mt-1"><span id="r-ml">83</span></dd>
+          <dd class="text-xs text-ink/60">mL/h</dd>
+        </div>
+      </dl>
+
+      <p class="mt-4 rounded-lg border-l-4 border-warnline bg-warn px-3 py-2 text-xs leading-relaxed">
+        <b>Atenção:</b> confira sempre a prescrição e o protocolo da sua instituição. Esta calculadora é um apoio ao estudo.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Conteúdo do guia -->
+<section class="mx-auto max-w-6xl px-5 py-14 md:py-20">
+  <h2 class="font-display font-bold text-3xl sm:text-4xl max-w-2xl">Quatro módulos, escritos para consulta rápida</h2>
+  <p class="mt-3 text-ink/70 max-w-xl">Tabelas, passo a passo e caixas de atenção. Sem texto corrido para você procurar no meio do plantão.</p>
+
+  <div class="mt-10 grid gap-x-12 gap-y-9 md:grid-cols-2">
+    <article class="border-l-[6px] border-m1 pl-5">
+      <h3 class="font-display font-bold text-xl">Cálculo de medicamentos e diluição</h3>
+      <ul class="mt-2 space-y-1 text-ink/80 list-disc pl-5">
+        <li>Fórmulas de gotejamento (macro e microgotas, mL/h)</li>
+        <li>Exemplos resolvidos: penicilina cristalina, heparina e insulina</li>
+        <li>Regra de três com 3 exemplos do dia a dia</li>
+        <li>Tabela de diluição de 10 medicamentos de PS e UTI</li>
+      </ul>
+    </article>
+    <article class="border-l-[6px] border-m2 pl-5">
+      <h3 class="font-display font-bold text-xl">Vias de administração e boas práticas</h3>
+      <ul class="mt-2 space-y-1 text-ink/80 list-disc pl-5">
+        <li>Ângulos, locais e agulhas: ID, SC, IM e EV</li>
+        <li>Regra dos 9 certos, com o que checar em cada um</li>
+        <li>Cuidados com o acesso venoso: flebite e infiltração</li>
+      </ul>
+    </article>
+    <article class="border-l-[6px] border-m3 pl-5">
+      <h3 class="font-display font-bold text-xl">Sinais vitais, escalas e termos técnicos</h3>
+      <ul class="mt-2 space-y-1 text-ink/80 list-disc pl-5">
+        <li>Valores de referência para adultos e pediatria</li>
+        <li>Escala de Coma de Glasgow (atualização 2018) e escalas de dor</li>
+        <li>Dicionário com 30 termos cobrados em prova e usados no prontuário</li>
+      </ul>
+    </article>
+    <article class="border-l-[6px] border-m4 pl-5">
+      <h3 class="font-display font-bold text-xl">Primeiro plantão e estágio</h3>
+      <ul class="mt-2 space-y-1 text-ink/80 list-disc pl-5">
+        <li>Checklist do que levar no bolso do jaleco</li>
+        <li>Passagem de plantão no modelo SBAR</li>
+        <li>O que não pode faltar na anotação de enfermagem</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- Trecho do guia -->
+<section class="bg-white border-y border-ink/10">
+  <div class="mx-auto max-w-6xl px-5 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-start">
+    <div>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl">Veja como as contas aparecem no guia</h2>
+      <p class="mt-3 text-ink/70 max-w-md leading-relaxed">
+        Cada exemplo mostra a prescrição, o que você tem em mãos e o cálculo na ordem em que você faz. Abaixo, um trecho do módulo 1.
+      </p>
+    </div>
+    <div class="rounded-xl border border-ink/15 overflow-hidden">
+      <div class="bg-m1 text-white px-5 py-3 font-display font-bold">Heparina: infusão contínua</div>
+      <div class="p-5 text-[0.95rem] leading-relaxed space-y-2">
+        <p><b>Prescrição:</b> 1.000 UI/h. <b>Frasco:</b> 5 mL com 5.000 UI/mL (25.000 UI).</p>
+        <ol class="list-decimal pl-5 space-y-1">
+          <li>Preparo comum: 5 mL de heparina + 245 mL de SF 0,9% = 250 mL.</li>
+          <li>Concentração: 25.000 ÷ 250 = <b>100 UI/mL</b>.</li>
+          <li>1.000 UI/h ÷ 100 UI/mL = <b>10 mL/h</b> na bomba de infusão.</li>
+        </ol>
+        <p class="mt-3 rounded-lg border-l-4 border-warnline bg-warn px-3 py-2 text-sm">
+          <b>Atenção:</b> heparina é medicamento de alta vigilância. Exija dupla checagem e acompanhe TTPa/coagulograma.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Público -->
+<section class="mx-auto max-w-6xl px-5 py-14 md:py-20">
+  <h2 class="font-display font-bold text-3xl sm:text-4xl max-w-2xl">Para quem é este guia</h2>
+  <div class="mt-8 grid gap-8 md:grid-cols-3">
+    <div>
+      <h3 class="font-display font-bold text-xl">Estudantes</h3>
+      <p class="mt-2 text-ink/75 leading-relaxed">Revise cálculos, escalas e nomenclaturas antes da prova e leve a consulta para o estágio.</p>
+    </div>
+    <div>
+      <h3 class="font-display font-bold text-xl">Técnicos de enfermagem</h3>
+      <p class="mt-2 text-ink/75 leading-relaxed">Confira diluições, vias e os 9 certos de forma rápida, sem sair do posto de enfermagem.</p>
+    </div>
+    <div>
+      <h3 class="font-display font-bold text-xl">Enfermeiros recém-formados</h3>
+      <p class="mt-2 text-ink/75 leading-relaxed">Organize a passagem de plantão e as anotações no primeiro mês de trabalho.</p>
+    </div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES: só aparece se você preencher CONFIG.REVIEWS com avaliações reais -->
+<section id="avaliacoes" class="hidden bg-pink-soft/50 border-y border-pink/20">
+  <div class="mx-auto max-w-6xl px-5 py-14 md:py-20">
+    <h2 class="font-display font-bold text-3xl sm:text-4xl">O que dizem sobre o guia</h2>
+    <div id="reviews-list" class="mt-8 grid gap-6 md:grid-cols-3"></div>
+  </div>
+</section>
+
+<!-- Compra -->
+<section id="comprar" class="bg-gradient-to-br from-pink to-pink-dark text-white">
+  <div class="mx-auto max-w-3xl px-5 py-14 md:py-20 text-center">
+    <h2 class="font-display font-extrabold text-3xl sm:text-4xl">Leve o guia para o próximo plantão</h2>
+    <p class="mt-3 text-white/95">PDF com 9 páginas, em formato A4, que abre no celular, no tablet e no computador.</p>
+
+    <p class="mt-8 font-display font-extrabold text-5xl"><span data-price>R$ 19,90</span></p>
+    <p class="mt-1 text-sm text-white/95" data-price-note>pagamento único, acesso por e-mail</p>
+
+    <a data-checkout href="#comprar" class="mt-7 inline-flex w-full sm:w-auto items-center justify-center rounded-full bg-white text-pink-dark font-bold px-10 py-4 text-lg hover:bg-pink-soft">
+      Comprar agora
+    </a>
+
+    <ul class="mt-8 mx-auto max-w-md text-left text-white/95 space-y-2">
+      <li class="flex gap-3"><span aria-hidden="true" class="text-white">✓</span> Pagamento processado pela Kiwify</li>
+      <li class="flex gap-3"><span aria-hidden="true" class="text-white">✓</span> Acesso ao PDF por e-mail após a confirmação do pagamento</li>
+      <li class="flex gap-3"><span aria-hidden="true" class="text-white">✓</span> Garantia de <span data-guarantee>7</span> dias para pedir reembolso</li>
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="mx-auto max-w-3xl px-5 py-14 md:py-20">
+  <h2 class="font-display font-bold text-3xl sm:text-4xl">Perguntas frequentes</h2>
+  <div class="mt-8 divide-y divide-ink/15 border-y border-ink/15">
+    <details class="py-4">
+      <summary class="flex items-center justify-between gap-4 font-semibold text-lg">Como recebo o guia?
+        <svg class="chev h-5 w-5 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+      </summary>
+      <p class="mt-2 text-ink/75 leading-relaxed">Depois que o pagamento for confirmado, a Kiwify envia o acesso ao PDF para o e-mail usado na compra.</p>
+    </details>
+    <details class="py-4">
+      <summary class="flex items-center justify-between gap-4 font-semibold text-lg">Em qual formato vem o conteúdo?
+        <svg class="chev h-5 w-5 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+      </summary>
+      <p class="mt-2 text-ink/75 leading-relaxed">PDF de 9 páginas em A4. Você pode salvar no celular, ler offline e imprimir se preferir.</p>
+    </details>
+    <details class="py-4">
+      <summary class="flex items-center justify-between gap-4 font-semibold text-lg">O guia substitui o protocolo do meu hospital?
+        <svg class="chev h-5 w-5 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+      </summary>
+      <p class="mt-2 text-ink/75 leading-relaxed">Não. É um material de apoio ao estudo e à consulta rápida. Doses, diluições e tempos de infusão devem ser confirmados na prescrição, na bula e no protocolo da sua instituição.</p>
+    </details>
+    <details class="py-4">
+      <summary class="flex items-center justify-between gap-4 font-semibold text-lg">Como funciona a garantia?
+        <svg class="chev h-5 w-5 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+      </summary>
+      <p class="mt-2 text-ink/75 leading-relaxed">Você tem <span data-guarantee>7</span> dias após a compra para pedir o reembolso, direto pela Kiwify ou pelo WhatsApp de contato no rodapé desta página.</p>
+    </details>
+    <details class="py-4">
+      <summary class="flex items-center justify-between gap-4 font-semibold text-lg">O pagamento é seguro?
+        <svg class="chev h-5 w-5 shrink-0" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 8l5 5 5-5"/></svg>
+      </summary>
+      <p class="mt-2 text-ink/75 leading-relaxed">O checkout é feito na página da Kiwify, que processa o pagamento. Os dados do seu cartão não passam por esta página.</p>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<footer class="bg-ink text-white/70">
+  <div class="mx-auto max-w-6xl px-5 py-10 text-sm leading-relaxed">
+    <p class="max-w-3xl">
+      Conteúdo educativo, produzido como material de apoio ao estudo e à consulta rápida. Não substitui a prescrição médica, a bula, o protocolo da instituição nem a orientação do enfermeiro responsável. Valores de referência podem variar entre serviços e diretrizes.
+    </p>
+    <p class="mt-4">© 2026 Profª. Dalila | Enfermagem na Prática. Todos os direitos reservados.</p>
+    <p class="mt-2">Contato com a Profª. Dalila: <a data-contact class="underline" href="#">WhatsApp</a></p>
+  </div>
+</footer>
+
+<!-- Barra fixa de compra no celular -->
+<div class="md:hidden fixed inset-x-0 bottom-0 z-20 bg-ink border-t border-white/15 px-4 py-3 flex items-center justify-between gap-3">
+  <span class="text-white font-display font-extrabold text-xl" data-price>R$ 19,90</span>
+  <a data-checkout href="#comprar" class="rounded-full bg-pink text-white font-bold px-6 py-3">Comprar agora</a>
+</div>
+
+<script>
+  // ---- Aplica a configuração ----
+  (function () {
+    var c = window.CONFIG;
+    document.querySelectorAll("[data-price]").forEach(function (el) { el.textContent = c.PRICE; });
+    document.querySelectorAll("[data-price-note]").forEach(function (el) { el.textContent = c.PRICE_NOTE; });
+    document.querySelectorAll("[data-guarantee]").forEach(function (el) { el.textContent = c.GUARANTEE_DAYS; });
+    document.querySelectorAll("[data-contact]").forEach(function (el) {
+      el.textContent = "WhatsApp " + c.WHATSAPP_LABEL;
+      el.href = "https://wa.me/" + c.WHATSAPP.replace(/\D/g, "");
+      el.target = "_blank"; el.rel = "noopener";
+    });
+    // Botões do topo e do hero rolam até a seção de compra; os de lá e da barra fixa abrem o checkout.
+    var checkoutOk = /^https:\/\//.test(c.CHECKOUT_URL);
+    document.querySelectorAll("[data-checkout]").forEach(function (a) {
+      var inBuy = a.closest("#comprar") || a.closest(".fixed");
+      if (inBuy && checkoutOk) { a.href = c.CHECKOUT_URL; a.target = "_blank"; a.rel = "noopener"; }
+    });
+  })();
+
+  // ---- Calculadora de gotejamento ----
+  (function () {
+    var vol = document.getElementById("vol"), hrs = document.getElementById("hrs"), min = document.getElementById("min");
+    var form = document.getElementById("calc-form");
+    var err = document.getElementById("calc-error");
+    var macro = document.getElementById("r-macro"), micro = document.getElementById("r-micro"), ml = document.getElementById("r-ml");
+    function fmt(n) { return Math.round(n).toLocaleString("pt-BR"); }
+    function calc() {
+      var v = parseFloat(vol.value), h = parseFloat(hrs.value) || 0, m = parseFloat(min.value) || 0;
+      var t = h + m / 60;
+      if (!(v > 0) || !(t > 0) || v > 100000 || t > 1000) {
+        err.textContent = "Informe um volume e um tempo válidos, maiores que zero.";
+        macro.textContent = micro.textContent = ml.textContent = "–";
+        return;
+      }
+      err.textContent = "";
+      macro.textContent = fmt(v / (t * 3));   // macrogotas/min = volume ÷ (horas × 3)
+      micro.textContent = fmt(v / t);         // microgotas/min = volume ÷ horas
+      ml.textContent = fmt(v / t);            // mL/h = volume ÷ horas
+    }
+    form.addEventListener("submit", function (e) { e.preventDefault(); });
+    [vol, hrs, min].forEach(function (i) { i.addEventListener("input", calc); });
+    calc();
+  })();
+</script>
+<script>
+  // ---- Avaliações reais (renderiza só se CONFIG.REVIEWS tiver itens) ----
+  (function () {
+    var list = (window.CONFIG.REVIEWS || []).filter(function (r) { return r && r.nome && r.texto; });
+    if (!list.length) return;
+    var wrap = document.getElementById("reviews-list");
+    list.forEach(function (r) {
+      var n = Math.max(1, Math.min(5, parseInt(r.estrelas, 10) || 5));
+      var card = document.createElement("figure");
+      card.className = "rounded-2xl bg-white border border-pink/20 p-5";
+      var st = document.createElement("div");
+      st.className = "text-pink text-lg";
+      st.setAttribute("role", "img");
+      st.setAttribute("aria-label", n + " de 5 estrelas");
+      st.textContent = "★".repeat(n) + "☆".repeat(5 - n);
+      var q = document.createElement("blockquote");
+      q.className = "mt-2 text-ink/85 leading-relaxed";
+      q.textContent = r.texto;
+      var c = document.createElement("figcaption");
+      c.className = "mt-3 text-sm font-semibold";
+      c.textContent = r.nome;
+      card.appendChild(st); card.appendChild(q); card.appendChild(c);
+      wrap.appendChild(card);
+    });
+    document.getElementById("avaliacoes").classList.remove("hidden");
+  })();
+</script>
+</body>
+</html>
